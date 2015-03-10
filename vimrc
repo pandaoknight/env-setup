@@ -96,11 +96,11 @@ if !exists(":DiffOrig")
 endif
 
 set fileencodings=utf-8,gbk
-set ts=2
+set ts=4
 set expandtab
-autocmd FileType html setlocal et sta sw=2 sts=4
+autocmd FileType html setlocal et sta sw=4 sts=4
 autocmd FileType python setlocal et sta sw=4 sts=4
-autocmd FileType php setlocal et sta sw=2 sts=2
+autocmd FileType php setlocal et sta sw=4 sts=4
 
 " Hightlight end of line whitespace.
 highlight WhitespaceEOL ctermbg=red guibg=red
