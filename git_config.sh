@@ -12,12 +12,11 @@ git config --global core.editor vim
 git config --global alias.st status
 git config --global alias.co checkout
 git config --global alias.ci commit
-#git config --global alias.df diff
 git config --global alias.br branch
 
 #by me
-git config --global alias.df diff
-git config --global alias.ds diff --staged
+git config --global alias.df diff
+git config --global alias.ds "diff --staged"
 
 # 4. 设置git的user
 git config --global user.name "pandaoknight@$HOSTNAME"
