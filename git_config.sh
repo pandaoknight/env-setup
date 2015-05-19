@@ -15,6 +15,10 @@ git config --global alias.ci commit
 #git config --global alias.df diff
 git config --global alias.br branch
 
+#by me
+git config --global alias.df diff
+git config --global alias.ds diff --staged
+
 # 4. 设置git的user
 git config --global user.name "pandaoknight@$HOSTNAME"
 git config --global user.email "pandaoknight@$HOSTNAME.com"
