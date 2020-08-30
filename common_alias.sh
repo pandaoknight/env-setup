@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "\nalias nsg='netstat -apn|grep '\n" >> ~/.bashrc
+echo >> ~/.bashrc
+echo "alias nsg='netstat -apn|grep '" >> ~/.bashrc

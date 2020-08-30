@@ -97,10 +97,11 @@ endif
 
 set fileencodings=utf-8,gbk
 set ts=4
-set expandtab
+" set expandtab
 autocmd FileType html setlocal et sta sw=4 sts=4
 autocmd FileType python setlocal et sta sw=4 sts=4
 autocmd FileType php setlocal et sta sw=4 sts=4
+autocmd FileType go setlocal noexpandtab
 
 " Hightlight end of line whitespace.
 highlight WhitespaceEOL ctermbg=red guibg=red
