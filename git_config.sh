@@ -24,5 +24,5 @@ git config --global alias.ds "diff --staged"
 git config --global alias.logpretty "log --pretty=format:'%h - %an, %ar : %s'"
 
 # 4. 设置git的user
-git config --global user.name "chenxing@$HOSTNAME"
-git config --global user.email "chenxing@$HOSTNAME.com"
+git config --global user.name "PC"
+git config --global user.email "pandaoknight2006@gmail.com"
